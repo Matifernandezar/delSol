@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/770ab9a569.js" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="intestino.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Doctores - clinicadelsol</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid text-white">
+              <a class="navbar-brand text-white" href="#">Clinica del Sol</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="inicio navbar-nav mx-auto">
+
+                  <li class="nav-item">
+                    <a class="inicio nav-link active text-white  " aria-current="page" href="INDEX.HTML"><i class="fa-solid fa-house iconos"></i> Inicio </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+
+      <div class="row">
+        <div class="col-2">
+          <nav class ="vertical" id="list-tab" role="tablist">
+            <ul>
+          <LI class="vertical"><!--Clinica General-->
+            <a class="list-group-item list-group-item-action active " id="list-banner-list" data-bs-toggle="list" href="#list-banner" role="tab" aria-controls="list-home"
+                href="" class="botones"><i class="fa-solid fa-stethoscope"></i> Clinica General</a> 
+                <!--Gastroenteritis-->
+        </LI>
+        <br>
+        <LI class="vertical">
+          <a class="list-group-item list-group-item-action " id="list-gastro-list" data-bs-toggle="list" href="#list-gastro" role="tab" aria-controls="list-gastro" href="" class="botones">
+            <i class="fa-solid fa-person"></i> Gastroenteritis </a> <!---->
+        </LI>
+        <br>
+       <!--cardio-->
+        <LI class="vertical">
+          <a class="list-group-item list-group-item-action " id="list-cardio-list" data-bs-toggle="list" href="#list-cardio" role="tab" aria-controls="list-cardio" href="" class="botones"> 
+            <i class="fa-solid fa-heart-pulse"></i> Cardiología </a>
+       </LI>
+       <br>
+     <!--pediatria-->
+        <LI class="vertical">
+          <a class="list-group-item list-group-item-action " id="list-pediatria-list" data-bs-toggle="list" href="#list-pediatria" role="tab" aria-controls="list-pediatria" href=" " class="botones"> 
+            <i class="fa-solid fa-baby"></i> Pediatría</a>
+        </LI>
+        <br>
+         <!--oncologia-->
+        <LI class="vertical">
+          <a class="list-group-item list-group-item-action " id="list-oncolog-list" data-bs-toggle="list" href="#list-oncolog" role="tab" aria-controls="list-oncolog" href=" " class="botones">
+            <i class="fa-solid fa-virus"></i> Oncología</a>
+        </LI>
+        <br>
+       
+        
+      </ul>
+      </nav>
+    </div>
+     
+      <div class="col-10 mt-5" >
+        <div class="tab-content" id="nav-tabContent">
+          <!--clinica general-->
+          <div class="tab-pane fade show active" id="list-banner" role="tabpanel" aria-labelledby="list-banner-list">
+            
+           
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Apellido</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Especialidad</th>
+                      <th scope="col">Dias de Atencion</th>
+                      <th scope="col">Horario</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" id="doctor1" src="imagenes/doctorhouse.jpg" data-bs-toggle="modal" data-bs-target="#modalDoctor1"></td>
+                      <td>House</td>
+                      <td>Gregory</td>
+                      <td>Clinica General</td>
+                      <td>Lunes a Jueves</td>
+                      <td>16 a 22 hs</td>
+                    </tr>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" src="imagenes/derek.jpg" data-bs-toggle="modal" data-bs-target="#modalDoctor2"></td>
+                      <td>Shepherd</td>
+                      <td>Derek</td>
+                      <td>Clinica General</td>
+                      <td>Lunes a Jueves</td>
+                      <td>8 a 16 hs</td>
+                    </tr>
+                    <tr>
+                      <td><img class="imagen-catalogo" src="imagenes/doctor4.png" data-bs-toggle="modal" data-bs-target="#modalDoctor3"></td>
+                      <td>Paz</td>
+                      <td>Marcos</td>
+                      <td>Clinica General</td>
+                      <td>Viernes a Domingo</td>
+                      <td>16 a 22 hs</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+         
+       
+          <!--Gastroent-->
+          <div class="tab-pane fade" id="list-gastro" role="tabpanel" aria-labelledby="list-gastro-list">
+         
+           
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Apellido</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Especialidad</th>
+                      <th scope="col">Dias de Atencion</th>
+                      <th scope="col">Horario</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" src="imagenes/doctor1.webp" data-bs-toggle="modal" data-bs-target="#modalDoctor4"></td>
+                      <td>Martin</td>
+                      <td>Federico</td>
+                      <td>Gastroenteritis</td>
+                      <td>Lunes a Miercoles</td>
+                      <td>16 a 22 hs</td>
+                    </tr>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" src="imagenes/doctor3.webp" data-bs-toggle="modal" data-bs-target="#modalDoctor5"></td>
+                      <td>Padilla</td>
+                      <td>Tomas</td>
+                      <td>Gastroenteritis</td>
+                      <td>Lunes a Domingo</td>
+                      <td>8 a 12 hs</td>
+                    </tr>
+                    <tr>
+                      <td><img class="imagen-catalogo" src="imagenes/doctor4.png" data-bs-toggle="modal" data-bs-target="#modalDoctor6"></td>
+                      <td>Ruiz</td>
+                      <td>Kevin</td>
+                      <td>Gastroenteritis</td>
+                      <td>Viernes a Domingo</td>
+                      <td>20 a 22 hs</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        
+  
+            <!--Cardiologia-->
+          <div class="tab-pane fade" id="list-cardio" role="tabpanel" aria-labelledby="list-cardio-list">
+           
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Apellido</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Especialidad</th>
+                      <th scope="col">Dias de Atencion</th>
+                      <th scope="col">Horario</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" src="imagenes/doctora2.jpg" data-bs-toggle="modal" data-bs-target="#modalDoctor7"></td>
+                      <td>Fernandez</td>
+                      <td>Micaela</td>
+                      <td>Cardiologia</td>
+                      <td>Martes a Jueves</td>
+                      <td>18 a 22 hs</td>
+                    </tr>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" src="imagenes/doctor6.jpg" data-bs-toggle="modal" data-bs-target="#modalDoctor8"></td>
+                      <td>Martinez</td>
+                      <td>Pedro</td>
+                      <td>Cardiologia</td>
+                      <td>Miercoles a Jueves</td>
+                      <td>8 a 16 hs</td>
+                    </tr>
+                    <tr>
+                      <td><img class="imagen-catalogo" src="imagenes/doctor8.webp" data-bs-toggle="modal" data-bs-target="#modalDoctor9"></td>
+                      <td>Soto</td>
+                      <td>Hector</td>
+                      <td>Cardiologia</td>
+                      <td>Viernes a Domingo</td>
+                      <td>16 a 22 hs</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+  
+  
+      
+         
+          <!--Pediatria-->
+          <div class="tab-pane fade" id="list-pediatria" role="tabpanel" aria-labelledby="list-pediatria-list">
+        
+        
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Apellido</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Especialidad</th>
+                      <th scope="col">Dias de Atencion</th>
+                      <th scope="col">Horario</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" src="imagenes/doctor10.webp" data-bs-toggle="modal" data-bs-target="#modalDoctor10"></td>
+                      <td>Diaz</td>
+                      <td>Gregorio</td>
+                      <td>Pediatria</td>
+                      <td>Lunes a Viernes</td>
+                      <td>16 a 22 hs</td>
+                    </tr>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" src="imagenes/doctor12.jpg" data-bs-toggle="modal" data-bs-target="#modalDoctor11"></td>
+                      <td>Soria</td>
+                      <td>Roberto</td>
+                      <td>Pediatria</td>
+                      <td>Lunes a Viernes</td>
+                      <td>8 a 14 hs</td>
+                    </tr>
+                    <tr>
+                      <td><img class="imagen-catalogo" src="imagenes/doctor13.jpg" data-bs-toggle="modal" data-bs-target="#modalDoctor12"></td>
+                      <td>Heredia</td>
+                      <td>Carlos</td>
+                      <td>Pediatria</td>
+                      <td>Viernes a Domingo</td>
+                      <td>16 a 22 hs</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          
+        <!--Oncologia-->
+          <div class="tab-pane fade" id="list-oncolog" role="tabpanel" aria-labelledby="list-oncolog-list">
+           
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Apellido</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Especialidad</th>
+                      <th scope="col">Dias de Atencion</th>
+                      <th scope="col">Horario</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" src="imagenes/doctora5.jpg" data-bs-toggle="modal" data-bs-target="#modalDoctor13"></td>
+                      <td>Flores</td>
+                      <td>Tamara</td>
+                      <td>Oncologia</td>
+                      <td>Lunes a Jueves</td>
+                      <td>10 a 22 hs</td>
+                    </tr>
+                    <tr>
+                      
+                      <td><img class="imagen-catalogo" src="imagenes/doctor14.jpg" data-bs-toggle="modal" data-bs-target="#modalDoctor14"></td>
+                      <td>Pizarro</td>
+                      <td>Axel</td>
+                      <td>Oncologia</td>
+                      <td>Lunes a Jueves</td>
+                      <td>10 a 16 hs</td>
+                    </tr>
+                    <tr>
+                      <td><img class="imagen-catalogo" src="imagenes/doctor15.png" data-bs-toggle="modal" data-bs-target="#modalDoctor15"></td>
+                      <td>Castillo</td>
+                      <td>Hector</td>
+                      <td>Oncologia</td>
+                      <td>Viernes a Domingo</td>
+                      <td>16 a 23:55 hs</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+
+
+            </div>
+  
+        
+          </div>
+        </div>
+      
+  
+<!-- Modal para los doctores -->
+<!-- Modal para el primer doctor -->
+<div class="modal fade" id="modalDoctor1" tabindex="-1" role="dialog" aria-labelledby="modalDoctor1Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor1Label">Ficha del Dr. House</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctorhouse.jpg" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el segundo doctor -->
+<div class="modal fade" id="modalDoctor2" tabindex="-1" role="dialog" aria-labelledby="modalDoctor2Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor2Label">Ficha del Dr. Derek Shepherd</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/derek.jpg" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el tercer doctor -->
+<div class="modal fade" id="modalDoctor3" tabindex="-1" role="dialog" aria-labelledby="modalDoctor3Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor3Label">Ficha del Dr. Marcos Paz</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor4.png" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el cuarto doctor -->
+<div class="modal fade" id="modalDoctor4" tabindex="-1" role="dialog" aria-labelledby="modalDoctor4Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor4Label">Ficha del Dr. Federico Martin</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor1.webp" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el quinto doctor -->
+<div class="modal fade" id="modalDoctor5" tabindex="-1" role="dialog" aria-labelledby="modalDoctor5Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor5Label">Ficha del Dr. Tomas Padilla</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor3.webp" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el sexto doctor -->
+<div class="modal fade" id="modalDoctor6" tabindex="-1" role="dialog" aria-labelledby="modalDoctor6Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor6Label">Ficha del Dr. Kevin Ruiz</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor4.png" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el séptimo doctor -->
+<div class="modal fade" id="modalDoctor7" tabindex="-1" role="dialog" aria-labelledby="modalDoctor7Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor7Label">Ficha de la Dra. Micaela Fernandez</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctora2.jpg" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal para el octavo doctor -->
+<div class="modal fade" id="modalDoctor8" tabindex="-1" role="dialog" aria-labelledby="modalDoctor8Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor8Label">Ficha del Dr. Pedro Martinez</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor6.jpg" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el noveno doctor -->
+<div class="modal fade" id="modalDoctor9" tabindex="-1" role="dialog" aria-labelledby="modalDoctor9Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor9Label">Ficha del Dr. Hector Soto</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor8.webp" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el décimo doctor -->
+<div class="modal fade" id="modalDoctor10" tabindex="-1" role="dialog" aria-labelledby="modalDoctor10Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor10Label">Ficha del Dr. Gregorio Diaz</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor10.webp" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el undécimo doctor -->
+<div class="modal fade" id="modalDoctor11" tabindex="-1" role="dialog" aria-labelledby="modalDoctor11Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor11Label">Ficha del Dr. Roberto Soria</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor12.jpg" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el duodécimo doctor -->
+<div class="modal fade" id="modalDoctor12" tabindex="-1" role="dialog" aria-labelledby="modalDoctor12Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor12Label">Ficha del Dr. Carlos Heredia</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor13.jpg" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el decimotercer doctor -->
+<div class="modal fade" id="modalDoctor13" tabindex="-1" role="dialog" aria-labelledby="modalDoctor13Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor13Label">Ficha de la Dra. Tamara Flores</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctora5.jpg" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el decimocuarto doctor -->
+<div class="modal fade" id="modalDoctor14" tabindex="-1" role="dialog" aria-labelledby="modalDoctor14Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor14Label">Ficha del Dr. Axel Pizarro</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor14.jpg" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para el decimoquinto doctor -->
+<div class="modal fade" id="modalDoctor15" tabindex="-1" role="dialog" aria-labelledby="modalDoctor15Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalDoctor15Label">Ficha del Dr. Fernando Montoya</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <form>
+            <img src="imagenes/doctor15.jpg" class="imagen-catalogo">
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres">
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+              <label for="fecha-turno" class="form-label">Fecha del Turno</label>
+              <input type="date" class="form-control" id="fecha-turno">
+            </div>
+            <div class="mb-3">
+              <label for="horario-turno" class="form-label">Horario del Turno</label>
+              <input type="time" class="form-control" id="horario-turno">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver al listado</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar Turno</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
+    
